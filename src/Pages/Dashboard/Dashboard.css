@@ -36,3 +36,26 @@
     display: block;
     width: 100%;
   }
+
+  .swiper-again{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper-two{
+    width: 85%;
+    margin-left: 2%;
+  
+  }
+
+  #swiper-color .swiper-button-next  {
+    color: grey;
+  }
+ 
+  #swiper-color .swiper-button-prev  {
+    color: grey;
+  }
+
+  

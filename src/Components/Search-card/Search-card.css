@@ -2,22 +2,27 @@
     box-sizing: border-box;
 }
 
+.basic{
+    margin-left: 2%;
+    margin-bottom: 15%;
+}
 .cardHeader{
     text-align: left;
     padding-top: 12%;
     margin-right: 0%;
-    font-size: 30px;
+    font-size:25px;
     font-weight: 600;
     align-items: left;
 }
 
 .cardBody {
     margin-left: 5%;
+    margin-right: 0%;
 }
 
-.HELLO {
-    width: 450px;
-    height: 325px;
+.card1 {
+    width: 370px;
+    height: 240px;
     background: white;
     box-shadow: 0 2px 8px grey;
     border-radius: 10px;
@@ -27,20 +32,11 @@
     margin-bottom: 7%;
 }
 
-.cardDescription{
-    text-align: left;
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 5%;
-    font-size:small;
-    
-}
+
 
 .name {
     color: #D26E63;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     font-size: 15px;
     margin-bottom: 0px;
@@ -105,19 +101,10 @@
     padding: 0.5%;
     height:25px;
     width:90px;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-left: 6%;
 }
 
 .tagText{
     margin: 2%;
-}
-
-.main-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 7%;
-    padding-top: 1%;
-
 }
