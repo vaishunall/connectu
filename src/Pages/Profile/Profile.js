@@ -11,7 +11,7 @@ export default class Profile extends Component {
         </nav>
         </header>
         <main>
-        <div className="card" >
+        <div className="cardP" >
             
                 
                 {/* <img className="eventImage" src={cardImage1}></img> */}
