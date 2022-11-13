@@ -31,7 +31,7 @@ export default function SearchCard({data}) {
         
                 <div className="cardTags">
                 <div className="tag"><div className="tagText">diversity</div></div>
-                <div className="tag"><div className="tagText">inclusion</div></div>
+                <div className="tag"><div className="tagText">inclusivity</div></div>
                 </div>
             </div> 
         </div>

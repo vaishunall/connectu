@@ -1,10 +1,10 @@
 import React, { Component, useState } from 'react'
 import "./card.css"
-import cardImage1 from "../../Assets/nt-bill1.png";
+import pic1 from "../../Assets/pic1.png";
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import StarIcon from '@mui/icons-material/Star';
 
-export default class Card extends Component {
+export default class Card2 extends Component {
   state = { clicked: false};
   handleClick = () => {
       this.setState({ clicked: !this.state.clicked})
@@ -22,12 +22,12 @@ export default class Card extends Component {
             <div className="cardContents">
               <div className="cardMain">
 
-                <img className="eventImage" src={cardImage1}></img>
+                <img className="eventImage" src={pic1}></img>
                 <div className="cardBody">
 
-                  <div className="cardHeader">Women in Tech</div>
+                  <div className="cardHeader">First-Gen College Life</div>
                   <div className="cardDetails">
-                    <div className="name">Faiza Rahman</div>
+                    <div className="name">Angelina Vu</div>
                     <div className="university">The University of Texas at Dallas</div>
                     <div className="club">Society of Women Engineers</div></div>
                 </div>
@@ -38,17 +38,17 @@ export default class Card extends Component {
                 </div> */}
 
                 <div>
-                    <div className ='starIcon1' id="starPad" onClick={this.handleClick}>{this.state.clicked ? <StarIcon/>
+                    <div className ='starIcon1' onClick={this.handleClick}>{this.state.clicked ? <StarIcon/>
                     : <StarOutlineIcon />}</div>
                 </div>
                 
               </div>
               <div className="cardDescription">
-                <p>We are looking for volunteers/sponsors to help us build a fundraiser to donate to further women's STEM education. We will be hosting a workshop with women speakers who will talk about their experience in a male dominated field.</p>
+                <p>We are trying to host a workshop to help First-Gen freshmen navigate college life. We will provide resources for them that they may not know about and would like a volunteer who can talk about their personal experience as a first gen student.</p>
               </div>
               <div className="cardTags">
-                <div className="tag"><div className="tagText">STEM</div></div>
-                <div className="tag"><div className="tagText">women</div></div>
+                <div className="tag"><div className="tagText">diversity</div></div>
+                <div className="tag"><div className="tagText">inclusion</div></div>
               </div>
             </div>
           </div>

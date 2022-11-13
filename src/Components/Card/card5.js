@@ -1,10 +1,10 @@
 import React, { Component, useState } from 'react'
 import "./card.css"
-import cardImage1 from "../../Assets/nt-bill1.png";
+import pic5 from "../../Assets/pic5.png";
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import StarIcon from '@mui/icons-material/Star';
 
-export default class Card extends Component {
+export default class Card2 extends Component {
   state = { clicked: false};
   handleClick = () => {
       this.setState({ clicked: !this.state.clicked})
@@ -22,14 +22,14 @@ export default class Card extends Component {
             <div className="cardContents">
               <div className="cardMain">
 
-                <img className="eventImage" src={cardImage1}></img>
+                <img className="eventImage" src={pic5}></img>
                 <div className="cardBody">
 
-                  <div className="cardHeader">Women in Tech</div>
+                  <div className="cardHeader">Impostor Syndrome Workshop</div>
                   <div className="cardDetails">
-                    <div className="name">Faiza Rahman</div>
-                    <div className="university">The University of Texas at Dallas</div>
-                    <div className="club">Society of Women Engineers</div></div>
+                    <div className="name">Twilight Sparkle</div>
+                    <div className="university">Allen Community College</div>
+                    <div className="club">ML Club</div></div>
                 </div>
 
                 {/* <div onClick={this.handleClick}>
@@ -38,17 +38,17 @@ export default class Card extends Component {
                 </div> */}
 
                 <div>
-                    <div className ='starIcon1' id="starPad" onClick={this.handleClick}>{this.state.clicked ? <StarIcon/>
+                    <div className ='starIcon1' onClick={this.handleClick}>{this.state.clicked ? <StarIcon/>
                     : <StarOutlineIcon />}</div>
                 </div>
                 
               </div>
               <div className="cardDescription">
-                <p>We are looking for volunteers/sponsors to help us build a fundraiser to donate to further women's STEM education. We will be hosting a workshop with women speakers who will talk about their experience in a male dominated field.</p>
+                <p>Help us combat imposter syndrome for students! We would liek an industry volunteer who will be able to give tips on how to feel a sense of belonging at work.</p>
               </div>
               <div className="cardTags">
-                <div className="tag"><div className="tagText">STEM</div></div>
-                <div className="tag"><div className="tagText">women</div></div>
+                <div className="tag"><div className="tagText">Inclusivity</div></div>
+                <div className="tag"><div className="tagText">ML</div></div>
               </div>
             </div>
           </div>
