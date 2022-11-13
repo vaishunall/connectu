@@ -13,11 +13,13 @@
 
 .login-image{
     max-width: 70%;
+    margin-left: -10%;
 }
 
 .heading{
         font-size: 4rem;
         font-weight: 600;
+        margin-bottom: 10%;
 }
 
 .input{
@@ -35,7 +37,7 @@
 
 .button-login{
     background-color: #D26E63;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -43,6 +45,47 @@
     padding: 0.5%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 20%;
-
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 100px;
+    height:35px;
 }
+
+.button-signup{
+    background-color: white;
+    border-radius: 20px;
+    color: #D26E63;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 100px;
+    height:35px;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputEmail {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
+}
+
+.TextField-without-border-radius fieldset {
+    border-radius: 50px;
+    border-color: black;
+    width: 300px;
+   
+  }
+
+  .pageButtons {
+    display: flex;
+    flex-direction: row;
+  }
