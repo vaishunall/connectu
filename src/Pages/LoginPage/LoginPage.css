@@ -1,3 +1,48 @@
 .example{
     color:white;
 }
+
+.login-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+    padding-top: 5%;
+    
+}
+
+.login-image{
+    max-width: 70%;
+}
+
+.heading{
+        font-size: 4rem;
+        font-weight: 600;
+}
+
+.input{
+   
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.email{
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+
+.button-login{
+    background-color: #D26E63;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 20%;
+
+}

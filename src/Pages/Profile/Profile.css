@@ -1,3 +1,19 @@
 .example{
     color:white;
 }
+
+.card {
+    width: 70%;
+    height: 50%;
+    background: white;
+    box-shadow: 0 2px 8px grey;
+    border-radius: 10px;
+    margin-top: 5%;
+    
+}
+
+.profile-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
