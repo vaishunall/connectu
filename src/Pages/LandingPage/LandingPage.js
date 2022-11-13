@@ -1,7 +1,6 @@
 import React, { Component, useState } from 'react'
 import lpImage from "./landing_page_image.png"
 import './LandingPage.css'
-import data from './Objects'
 
 function LandingPage({data}) {
 
