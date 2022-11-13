@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./card.css"
-import cardImage1 from "../../Assets/nt-bill 1.png";
+import cardImage1 from "../../Assets/nt-bill1.png";
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 
 export default class Card extends Component {
