@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Card from '../../Components/Card/card';
 import Card2 from '../../Components/Card/card2';
 import Card3 from '../../Components/Card/card3';
@@ -22,9 +21,6 @@ export default class Dashboard extends Component {
   render() {
     
     return (
-
-      <Card data={{header:"Women in Tech",name:"Faiza", uni:"The University of Texas at Dallas", club:"Society of Women Engineers", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum sapien sed aliquet ultricies. Nulla at risus sit amet libero semper sodales. Duis molestie sollicitudin neque, non commodo neque porttitor ut. Nullam gravida, turpis"}}/>
-
       <div>
         
         <div>
@@ -51,7 +47,6 @@ export default class Dashboard extends Component {
   
           {/* or use normally  */}
   
-          
           <SwiperSlide>
           <Card2></Card2>
           </SwiperSlide>
@@ -67,8 +62,7 @@ export default class Dashboard extends Component {
           <SwiperSlide>
           <Card></Card>
           </SwiperSlide>
-          
-        </Swiper>
+          </Swiper>
       </div>
      
           <h1 className='heading1' style={{textAlign: "left", marginLeft:"5%", marginBottom: '-2%', marginTop:"-2%"}}>events near you</h1>
@@ -77,7 +71,7 @@ export default class Dashboard extends Component {
        <div className='swiper-again'>
        <div className='swiper-two'>
 
-<Swiper id="swiper-color" navigation={true} modules={[Navigation]} slidesPerView={3} spaceBetween={60} className="mySwiper">
+       <Swiper id="swiper-color" navigation={true} modules={[Navigation]} slidesPerView={3} spaceBetween={60} className="mySwiper">
 <SwiperSlide>
 <SearchCard className="card1" data={{header:"Women in Tech",name:"Faiza Rahman", uni:"The University of Texas at Dallas", club:"Society of Women Engineers", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum sapien sed aliquet ultricies. Nulla at risus sit amet libero semper sodales. Duis molestie sollicitudin neque, non commodo neque porttitor ut. Nullam gravida, turpis"}}/>
 </SwiperSlide>
@@ -111,7 +105,6 @@ export default class Dashboard extends Component {
         
       </div>
         
-
     )
   }
 }
