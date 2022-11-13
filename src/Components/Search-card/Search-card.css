@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+.cardHeader{
+    text-align: left;
+    padding-top: 12%;
+    margin-right: 0%;
+    font-size:25px;
+    font-weight: 600;
+    align-items: left;
+}
+
+.cardBody {
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.card {
+    width: 370px;
+    height: 240px;
+    background: white;
+    box-shadow: 0 2px 8px grey;
+    border-radius: 10px;
+}
+
+.cardContents {
+    margin-bottom: 7%;
+}
+
+
+
+.name {
+    color: #D26E63;
+    font-weight: 600;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size:small;
+    margin-right: 7%;
+}
+
+.university {
+
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-right: 7%;
+    font-size: small;
+}
+
+.club {
+
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-size: small;
+    margin-right: 7%;
+}
+
+.eventImage{
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    max-width: 120px;
+    max-height: 115px;
+}
+
+.cardMain{
+    display: flex;
+    flex-direction: row;
+}
+
+.starIcon{
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.cardTags{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag{
+    background-color: #D26E63;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    padding: 0.5%;
+    height:25px;
+    width:90px;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.tagText{
+    margin: 2%;
+}
