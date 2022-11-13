@@ -2,7 +2,7 @@ export const Objects = [
     {
         tags:["Diversity", "Inclusivity", "Women"], 
         header:"Women in Tech",
-        name:"Faiza", 
+        name:"Palak", 
         uni:"The University of Texas at Dallas", 
         club:"Society of Women Engineers", 
     },
