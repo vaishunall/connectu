@@ -11,6 +11,9 @@ export default function NavBar() {
               <Link className='link' to="/">logo</Link>
               </li>
               <li className="items" style={{marginLeft:'65%'}}>
+              <Link className='link' to="search">search</Link>
+              </li>
+              <li className="items">
               <Link className='link' to="dashboard">dashboard</Link>
               </li>
               <li className="items">
