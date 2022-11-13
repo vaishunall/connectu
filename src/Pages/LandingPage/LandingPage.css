@@ -1,3 +1,96 @@
-.example{
-    color:white;
+
+.intro-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: 10%;
 }
+
+.title-div{
+    flex:1;
+}
+
+.title{
+    font-size: 55px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.subtitle{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+    width: 580px;
+    margin-top: 20px;
+}
+
+.lp-image-div{
+    flex: 1;
+}
+.lp-image {
+    width: 600px;
+    padding-left: 50px;
+}
+
+.search-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 350px;
+    margin-top: 0px;
+}
+
+.search-input-div{
+    margin: 30px;
+}
+
+.search-input{
+    width:650px;
+    height:40px;
+    border-radius: 20px;
+    border-color: black;
+    padding-left: 10px;
+}
+
+.search-distance{
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    border-color: black;
+    padding-left: 10px;
+}
+
+.about-us-div{
+    width: 620px;
+    margin: 100px;
+   margin-left: 700px;
+   margin-top: 70px;
+}
+
+.about-us-title{
+    font-size: 50px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.about-us-text{
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.today-button{
+    background-color: #D26E63;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    
+    margin-top: 5%;
+    width: 400px;
+}
+

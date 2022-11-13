@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.basic{
+    margin-left: 2%;
+    margin-bottom: 15%;
+}
+
 .cardHeader{
     text-align: left;
     padding-top: 12%;
@@ -16,7 +21,8 @@
     margin-right: 0%;
 }
 
-.card {
+.card1 {
+
     width: 370px;
     height: 240px;
     background: white;

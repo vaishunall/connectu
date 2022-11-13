@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import { Link } from "react-router-dom";
+import logoImg from "../../Assets/connectulogo1.png"
 
 export default function NavBar() {
     return (
@@ -8,9 +9,12 @@ export default function NavBar() {
           <ul className="list">
               
               <li className="items">
-              <Link className='link' to="/">logo</Link>
+              <Link className='link' to="/">
+                <img className='logo-styling' src={logoImg}></img>
+              </Link>
               </li>
-              <li className="items" style={{marginLeft:'65%'}}>
+
+              <li className="items" style={{marginLeft:'30%'}}>
               <Link className='link' to="search">search</Link>
               </li>
               <li className="items">

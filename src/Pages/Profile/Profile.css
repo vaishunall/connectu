@@ -1,3 +1,135 @@
-.example{
-    color:white;
+*{
+    box-sizing: border-box;
 }
+
+.userName{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    
+}
+
+.profile-format{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBody {
+    margin-left: 5%;
+    
+    
+}
+
+.card {
+    /* margin-left: 15%;
+    margin-right: 30%; */
+    margin-bottom: 20%;
+    margin-top: 10%;
+    width: 1000px;
+    height: 640px;
+    background: white;
+    box-shadow: 0 2px 8px grey;
+    border-radius: 10px;
+   
+    
+}
+
+.email1 {
+    /* font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    font-size: large;
+    color: #D26E63;
+    margin-left: -50%; */
+    text-align: left;
+    color: #D26E63;
+    font-weight: 500;
+    font-size: large;
+}
+
+.userEmail {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+
+
+.bio {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+    color: #D26E63;
+
+}
+
+.userBio {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 20%;
+}
+
+.institution {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+    color: #D26E63;
+}
+
+.userInstitution {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.website {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+    color: #D26E63;
+}
+
+.userWebsite {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5%;
+    margin: 5%;
+
+}
+
+
+.profilePicture{
+    margin-top: 7%;
+    
+    border-radius: 70px;
+    height:130px;
+    width:150px;
+    align-content: center;
+}
+

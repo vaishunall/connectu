@@ -13,9 +13,11 @@
 
 .cardBody {
     margin-left: 5%;
+
 }
 
-.card {
+.HELLO {
+
     width: 450px;
     height: 325px;
     background: white;
@@ -82,10 +84,15 @@
 .cardMain{
     display: flex;
     flex-direction: row;
+
 }
 
-.starIcon{
-    margin-top: 3%;
+.starPad{
+    padding-right: 13px;
+}
+
+.starIcon1{
+    margin-top: 10px;
     margin-right: 3%;
 }
 
@@ -111,4 +118,14 @@
 
 .tagText{
     margin: 2%;
+
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7%;
+    padding-top: 1%;
+
 }
