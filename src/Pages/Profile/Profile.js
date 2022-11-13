@@ -5,7 +5,7 @@ import profilePic from "../../Assets/nt-ranking.png"
 export default class Profile extends Component {
   render() {
     return (
-      <div>
+      <div className='profile-format'>
         <header className="main-header">
         <nav className="nav">
         </nav>
@@ -21,7 +21,7 @@ export default class Profile extends Component {
                     <div className="userName">Molly Smith</div>
                  </div>   
                  <div className="cardBottom">
-                    <div className="email">Email</div>
+                    <div className="email1">Email</div>
                     <div className="userEmail">mollysmith01@gmail.com</div>
                     <div className="institution">Institution Name</div>
                     <div className="userInstitution">The University of Washington</div>

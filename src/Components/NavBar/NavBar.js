@@ -13,7 +13,10 @@ export default function NavBar() {
                 <img className='logo-styling' src={logoImg}></img>
               </Link>
               </li>
-              <li className="items" style={{marginLeft:'40%'}}>
+              <li className="items" style={{marginLeft:'30%'}}>
+              <Link className='link' to="search">search</Link>
+              </li>
+              <li className="items">
               <Link className='link' to="dashboard">dashboard</Link>
               </li>
               <li className="items">

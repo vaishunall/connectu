@@ -84,9 +84,11 @@
     flex-direction: row;
 }
 
-.starIcon{
-    margin-top: 3%;
+.starIcon1{
+    margin-top: 10px;
     margin-right: 3%;
+    margin-left: 5%;
+    padding-left: 25px;
 }
 
 .cardTags{

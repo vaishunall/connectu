@@ -4,6 +4,7 @@ import cardImage1 from "../../Assets/nt-bill1.png"
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 
 export default function SearchCard({data}) {
+    
     return (
       <div className='basic'>
         <header className="main-header">
