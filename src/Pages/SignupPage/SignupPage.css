@@ -1,0 +1,113 @@
+.example{
+    color:white;
+}
+
+.signup-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+    padding-top: 5%;
+    
+}
+
+.signup-image{
+    max-width: 60%;
+    margin-left: -10%;
+    margin-bottom: 25%;
+}
+
+.heading{
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 10%;
+        margin-left: 14%;
+}
+
+.input{
+   
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.email{
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+
+.button-login{
+    background-color: #D26E63;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 100px;
+    height:35px;
+}
+
+.button-signup{
+    background-color: white;
+    border-radius: 20px;
+    color: #D26E63;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 100px;
+    height:35px;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+
+}
+.inputName {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
+}
+
+.inputEmail {
+    margin-bottom: 10%;
+    margin-top: 7%;
+    border-radius: 10px;
+    
+}
+
+
+
+.inputWebsite {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
+}
+.inputPassword {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
+}
+
+.TextField-without-border-radius fieldset {
+    border-radius: 50px;
+    border-color: black;
+    width: 300px;
+   
+  }
+
+  .pageButtons {
+    display: flex;
+    flex-direction: row;
+  }

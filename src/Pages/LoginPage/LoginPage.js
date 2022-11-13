@@ -3,6 +3,7 @@ import "./LoginPage.css";
 import bookImage from '../../Assets/books.png';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import { Link } from "react-router-dom";
  
     export default class LoginPage extends Component {
     render() {
@@ -34,7 +35,9 @@ import TextField from '@mui/material/TextField';
                                 </div>
                                 <div className="pageButtons">
                                 <div className='button-login'>login</div>
-                                <div className='button-signup'>signup</div></div>
+                                <div className='button-signup'>
+                                <Link className='link' to="/signup">signup</Link>
+                                    </div></div>
                             </div>
                         </Box>
                     </div>
