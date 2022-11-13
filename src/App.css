@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.results{
+  height: auto;
+  width: 500px;
+  overflow: auto;
+  position: relative;
+  margin: auto;
+  display: block;
+  max-height: 400px;
+}
+
+.search{
+  width: 500px;
+  height: 50px;
+  margin: auto;
+  display: block;
+  margin-top: 200px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +53,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.chips{ 
+	background: red;
+  }
+
+.highlightOption{
+  color: red;
 }
