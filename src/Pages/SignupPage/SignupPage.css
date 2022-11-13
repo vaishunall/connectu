@@ -2,7 +2,7 @@
     color:white;
 }
 
-.login-section{
+.signup-section{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,15 +11,17 @@
     
 }
 
-.login-image{
-    max-width: 70%;
+.signup-image{
+    max-width: 60%;
     margin-left: -10%;
+    margin-bottom: 25%;
 }
 
 .heading{
         font-size: 4rem;
         font-weight: 600;
         margin-bottom: 10%;
+        margin-left: 14%;
 }
 
 .input{
@@ -70,9 +72,29 @@
 .inputFields {
     display: flex;
     flex-direction: column;
+
+}
+.inputName {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
 }
 
 .inputEmail {
+    margin-bottom: 10%;
+    margin-top: 7%;
+    border-radius: 10px;
+    
+}
+
+
+
+.inputWebsite {
+    margin-bottom: 10%;
+    border-radius: 10px;
+    
+}
+.inputPassword {
     margin-bottom: 10%;
     border-radius: 10px;
     
