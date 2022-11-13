@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     margin: 100px;
+    margin-top: 10%;
 }
 
 .title-div{
@@ -12,13 +13,13 @@
 }
 
 .title{
-    font-size: 50px;
+    font-size: 55px;
     text-align: left;
     font-weight: 600;
 }
 
 .subtitle{
-    font-size: 22px;
+    font-size: 30px;
     text-align: left;
     font-weight: 500;
     width: 580px;
@@ -29,8 +30,8 @@
     flex: 1;
 }
 .lp-image {
-    width: 400px;
-    padding-left: 100px;
+    width: 600px;
+    padding-left: 50px;
 }
 
 .search-div{
@@ -81,3 +82,15 @@
     font-weight: 500;
     margin-top: 20px;
 }
+
+.today-button{
+    background-color: #D26E63;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    
+    margin-top: 5%;
+    width: 400px;
+}
+
