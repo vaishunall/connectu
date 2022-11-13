@@ -13,6 +13,7 @@ export default function NavBar() {
                 <img className='logo-styling' src={logoImg}></img>
               </Link>
               </li>
+
               <li className="items" style={{marginLeft:'30%'}}>
               <Link className='link' to="search">search</Link>
               </li>

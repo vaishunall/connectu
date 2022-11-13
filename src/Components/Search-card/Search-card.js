@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Search-card.css"
+
 import cardImage1 from "../../Assets/nt-bill1.png"
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 
@@ -38,4 +39,5 @@ export default function SearchCard({data}) {
         </main>
       </div>
     )
+
 }

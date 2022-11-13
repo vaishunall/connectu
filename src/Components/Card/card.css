@@ -13,10 +13,11 @@
 
 .cardBody {
     margin-left: 5%;
-    padding-right: -10%;
+
 }
 
 .HELLO {
+
     width: 450px;
     height: 325px;
     background: white;
@@ -83,7 +84,7 @@
 .cardMain{
     display: flex;
     flex-direction: row;
-    column-gap: -30px;
+
 }
 
 .starPad{
@@ -117,6 +118,7 @@
 
 .tagText{
     margin: 2%;
+
 }
 
 .main-card{

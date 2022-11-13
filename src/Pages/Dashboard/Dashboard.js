@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import Card from '../../Components/Card/card';
 import Card2 from '../../Components/Card/card2';
 import Card3 from '../../Components/Card/card3';
@@ -7,6 +8,7 @@ import Card5 from '../../Components/Card/card5';
 import SearchCard from '../../Components/Search-card/Search-card';
 import "./Dashboard.css";
 import 'swiper/css';
+
 
 import SwiperCore, { Autoplay, EffectCoverflow, Pagination, Mousewheel, Keyboard, Navigation } from "swiper";
 
@@ -20,6 +22,9 @@ export default class Dashboard extends Component {
   render() {
     
     return (
+
+      <Card data={{header:"Women in Tech",name:"Faiza", uni:"The University of Texas at Dallas", club:"Society of Women Engineers", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum sapien sed aliquet ultricies. Nulla at risus sit amet libero semper sodales. Duis molestie sollicitudin neque, non commodo neque porttitor ut. Nullam gravida, turpis"}}/>
+
       <div>
         
         <div>
@@ -106,6 +111,7 @@ export default class Dashboard extends Component {
         
       </div>
         
+
     )
   }
 }
