@@ -29,33 +29,36 @@
 }
 
 .email {
-    color: #D26E63;
     font-weight: 500;
     text-align: left;
     font-size: 15px;
     font-size: large;
+    color: #D26E63;
 }
 
 .userEmail {
-    color: #D26E63;
     font-weight: 500;
     text-align: left;
-    font-size: 12px;
+    font-size: 15px;
+    margin-bottom: 2%;
 }
 
-.phone {
-    text-align: left;
-    font-weight: 500;
-    font-size: 15px;
-    font-size: large;
-}
+
 
 .bio {
     text-align: left;
     font-weight: 500;
     font-size: 15px;
     font-size: large;
+    color: #D26E63;
 
+}
+
+.userBio {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
 }
 
 .institution {
@@ -63,6 +66,14 @@
     font-weight: 500;
     font-size: 15px;
     font-size: large;
+    color: #D26E63;
+}
+
+.userInstitution {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
 }
 
 .website {
@@ -70,6 +81,14 @@
     font-weight: 500;
     font-size: 15px;
     font-size: large;
+    color: #D26E63;
+}
+
+.userWebsite {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2%;
 }
 
 .cardTop {
@@ -85,16 +104,16 @@
     justify-content: left;
     align-items: left;
     margin-top: 5%;
-    margin-left: 15%;
+    margin: 5%;
 }
 
 
 .profilePicture{
     margin-top: 7%;
-    background-color: black;
+    
     border-radius: 70px;
     height:130px;
-    width:130px;
+    width:150px;
     align-content: center;
 }
 
