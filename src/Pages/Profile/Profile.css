@@ -2,17 +2,18 @@
     box-sizing: border-box;
 }
 
-.cardHeader{
-    text-align: left;
-    padding-top: 12%;
-    margin-right: 0%;
+.userName{
+    text-align: center;
+    padding-top: 3%;
     font-size: 30px;
     font-weight: 600;
-    align-items: left;
+    align-items: center;
+    
 }
 
 .cardBody {
     margin-left: 5%;
+    
 }
 
 .card {
@@ -24,110 +25,77 @@
     background: white;
     box-shadow: 0 2px 8px grey;
     border-radius: 10px;
-}
-
-.cardContents {
-    margin-left: 20%;
-    margin-bottom: 7%;
-}
-
-.cardDescription{
-    text-align: left;
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 5%;
-    font-size:small;
     
 }
 
-.name {
+.email {
     color: #D26E63;
     font-weight: 500;
     text-align: left;
     font-size: 15px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    font-size:small;
-    margin-right: 7%;
+    font-size: large;
 }
 
-.university {
-
-    text-align: left;
+.userEmail {
+    color: #D26E63;
     font-weight: 500;
-    font-size: 15px;
-    margin-top: 2px;
-    margin-right: 7%;
-    font-size: small;
-}
-
-.club {
-
     text-align: left;
-    font-weight: 500;
-    font-size: 15px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-    font-size: small;
-    margin-right: 7%;
-}
-
-.eventImage{
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    max-width: 120px;
-    max-height: 115px;
-}
-
-.cardMain{
-    display: flex;
-    flex-direction: row;
-}
-
-.starIcon{
-    margin-top: 3%;
-    margin-right: 3%;
-}
-
-.cardTags{
-    display: flex;
-    flex-direction: row;
-}
-
-.tag{
-    background-color: #D26E63;
-    border-radius: 20px;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
     font-size: 12px;
-    text-align: center;
-    padding: 0.5%;
-    height:25px;
-    width:90px;
-    margin-top: 1%;
-    margin-left: 6%;
 }
 
-.picture{
+.phone {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+}
+
+.bio {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+
+}
+
+.institution {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+}
+
+.website {
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-size: large;
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+
+.profilePicture{
+    margin-top: 7%;
     background-color: black;
-    border-radius: 20px;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 12px;
-    text-align: center;
-    padding: 0.5%;
-    height:25px;
-    width:90px;
-    margin-top: 1%;
-    margin-left: 6%;
+    border-radius: 70px;
+    height:130px;
+    width:130px;
+    align-content: center;
 }
 
-.tagText{
-    margin: 2%;
-}
+
