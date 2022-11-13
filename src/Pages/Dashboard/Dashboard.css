@@ -1,3 +1,61 @@
+
 .example{
     color:white;
 }
+
+.heading1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main-swiper {
+    margin: 40px 0;
+  }
+  
+  /* And also copy these styles from the swiper demo code sandox src->styles.css */
+  
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .swiper-again{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper-two{
+    width: 85%;
+    margin-left: 2%;
+  
+  }
+
+  #swiper-color .swiper-button-next  {
+    color: grey;
+  }
+ 
+  #swiper-color .swiper-button-prev  {
+    color: grey;
+  }
+
+  
