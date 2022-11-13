@@ -1,17 +1,15 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 const { Schema } = mongoose;
-const User = require('/models/Event')
 
 const eventSchema = new Schema({
-  eventName:  String, // String is shorthand for {type: String}
+  eventName:  String, 
   tags: [String],
-  body:   String,
   description: String,
   location: {
-      type: "Point",
-      coordinates: [-73.856077, 40.848447]
+    coordX: String, 
+    coordY: String
   },
-  volunteers_interested: [User]
+  volunteers_interested: [Number]
 });
 
 module.exports = mongoose.model("Event", eventSchema);

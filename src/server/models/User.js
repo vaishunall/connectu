@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
@@ -10,7 +10,7 @@ const userSchema = new Schema({
     bio: String,
     institution_name: String,
     photoURL: String,
-    website: URL,
+    website: String,
   },
 );
 
