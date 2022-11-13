@@ -22,13 +22,13 @@ export default class Profile extends Component {
                  </div>   
                  <div className="cardBottom">
                     <div className="email1">Email</div>
-                    <div className="userEmail">mollysmith01@gmail.com</div>
+                    <div className="userEmail">mollysmith01@statefarm.com</div>
                     <div className="institution">Institution Name</div>
-                    <div className="userInstitution">The University of Washington</div>
+                    <div className="userInstitution">StateFarm</div>
                     <div className="website">Website</div>
                     <div className="userWebsite">www.linkedin.com/mollysmith</div>
                     <div className="bio">Bio</div>
-                    <div className="userBio">My name is Molly and I am a current Junior at the University of Washington! I am the President of Society of Women Engineers at my University and am looking forward to connecting with hardworking industry mentors!</div>
+                    <div className="userBio">My name is Molly and I am a current Software Engineer at StateFarm! I am the project lead on my team who deals wioth our billing and policy system. I am looking forward to connecting with students organizations who are eager to learn!</div>
                 </div> 
                
         </div>
