@@ -4,6 +4,7 @@ const { Schema } = mongoose;
 const eventSchema = new Schema({
   eventName:  String, 
   tags: [String],
+  organizer_name: String,
   description: String,
   location: {
     coordX: String, 
