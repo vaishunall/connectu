@@ -2,6 +2,8 @@
  <img src="https://github.com/vaishunall/hackutd/blob/main/AnimatedLogoConnectU.gif" width="350">
  </p>
   
+[Link to learn more about ConnectU!](https://docs.google.com/presentation/d/1dnVkeHY9S6V0jTlsrWAKJYyWWqS-yi-ODcOICLYQ0ZU/edit?usp=sharing)
+
 # Inspiration
 
 Our inspiration for this web application comes from our gratefulness to give back to the STEM community, and to give those who may not have the same educational experience/opportunities as us the chance to experience the same.
