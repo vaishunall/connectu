@@ -1,71 +1,41 @@
-# Getting Started with Create React App
+<p align="center">
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFR0D2txDw&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFR0D2txDw&#x2F;watch?utm_content=DAFR0D2txDw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Black &amp; White Minimalist Business Logo</a> by Anushka Pimple
+  </p>
+  
+#Inspiration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our inspiration for this web application comes from our gratefulness to give back to the STEM community, and to give those who may not have the same educational experience/opportunities as us the chance to experience the same.
 
-## Available Scripts
+#What it does
 
-In the project directory, you can run:
+ConnectU aspires to create a community initiative between High Schools/Colleges and willing Sponsors to connect and invest in opportunities that help underprivileged communities. The application allows student organizations (such as the National Honor Society, ACM, SWE) to "post" workshops/initiatives that increase outreach/assistance to the community, and interested Sponsors (such as companies or non-profits), can express interest and join hands with student organizations to make positive initiatives come to fruition.
 
-### `npm start`
+#How we built it
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our web application is built with React.js on the front end, and Node.js+Express.js+MongoDB on the back end.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Challenges we ran into
 
-### `npm test`
+A challenge our team ran into was making our idea as easy to use as possible while maintaining a balance to inspire student organizations and sponsors alike to use our application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aside from that, some technical challenges we faced were designing an effective user interface and merging back-end and front-end functionalities.
 
-### `npm run build`
+#Accomplishments that we're proud of
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Learning technological stacks and experimenting with a minimalist, yet jubilant design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#What we learned
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Garner opinions! : Ask other people strengths/weaknesses of your idea. Contemplate and evaluate the pros and cons of different approaches and weigh them out carefully.
+Stay persistent: Errors are integral to any coding experience, but working through them requires patience and continuity.
+What's next for ConnectU
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# hackutd
+#Filter opportunities/initiatives by location
+Implement an in-app chat feature to have sponsors and student organizations communicate directly through the app.
