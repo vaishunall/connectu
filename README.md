@@ -2,7 +2,7 @@
  <img src="https://github.com/vaishunall/hackutd/blob/main/AnimatedLogoConnectU.gif" width="350">
  </p>
   
-[Link to learn more about ConnectU!](https://docs.google.com/presentation/d/1dnVkeHY9S6V0jTlsrWAKJYyWWqS-yi-ODcOICLYQ0ZU/edit?usp=sharing)
+[Learn more about ConnectU!](https://docs.google.com/presentation/d/1dnVkeHY9S6V0jTlsrWAKJYyWWqS-yi-ODcOICLYQ0ZU/edit?usp=sharing)
 
 # Inspiration
 
