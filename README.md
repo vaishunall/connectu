@@ -29,8 +29,9 @@ Learning technological stacks and experimenting with a minimalist, yet jubilant 
 # What we learned
 
 Garner opinions! : Ask other people strengths/weaknesses of your idea. Contemplate and evaluate the pros and cons of different approaches and weigh them out carefully.
-Stay persistent: Errors are integral to any coding experience, but working through them requires patience and continuity.
-What's next for ConnectU
 
-# Filter opportunities/initiatives by location
+Stay persistent: Errors are integral to any coding experience, but working through them requires patience and continuity.
+
+# What's next for ConnectU
+Filter opportunities/initiatives by location
 Implement an in-app chat feature to have sponsors and student organizations communicate directly through the app.
